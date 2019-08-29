@@ -69,6 +69,7 @@
 			reg = <0x0 0x0>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <635>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_0 &CLUSTER_COST_0>;
 			d-cache-size = <0x8000>;
 			i-cache-size = <0x8000>;
@@ -101,6 +102,7 @@
 			reg = <0x0 0x1>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <635>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_0 &CLUSTER_COST_0>;
 			d-cache-size = <0x8000>;
 			i-cache-size = <0x8000>;
@@ -129,6 +131,7 @@
 			reg = <0x0 0x2>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <635>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_0 &CLUSTER_COST_0>;
 			d-cache-size = <0x8000>;
 			i-cache-size = <0x8000>;
@@ -157,6 +160,7 @@
 			reg = <0x0 0x3>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <635>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_0 &CLUSTER_COST_0>;
 			d-cache-size = <0x8000>;
 			i-cache-size = <0x8000>;
@@ -185,6 +189,7 @@
 			reg = <0x0 0x100>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <1024>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_1 &CLUSTER_COST_1>;
 			d-cache-size = <0x10000>;
 			i-cache-size = <0x10000>;
@@ -218,6 +223,7 @@
 			reg = <0x0 0x101>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <1024>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_1 &CLUSTER_COST_1>;
 			d-cache-size = <0x10000>;
 			i-cache-size = <0x10000>;
@@ -246,6 +252,7 @@
 			reg = <0x0 0x102>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <1024>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_1 &CLUSTER_COST_1>;
 			d-cache-size = <0x10000>;
 			i-cache-size = <0x10000>;
@@ -274,6 +281,7 @@
 			reg = <0x0 0x103>;
 			enable-method = "psci";
 			capacity-dmips-mhz = <1024>;
+			freq-energy-model;
 			sched-energy-costs = <&CPU_COST_1 &CLUSTER_COST_1>;
 			d-cache-size = <0x10000>;
 			i-cache-size = <0x10000>;
